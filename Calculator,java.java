@@ -45,7 +45,7 @@ class Calculator
         System.out.print("Result of division is:" +div_result);
         
         int Square_result=calc.Square(operand_1);
-        System.out.print("Result of Square is:" +squ_result);
+        System.out.print("Result of Square is:" +squr_result);
         
         int Cube_result=calc.Cube(operand_1);
         System.out.print("Result of cubeis:" +cube_result);
