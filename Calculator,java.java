@@ -19,6 +19,14 @@ class Calculator
     {
         return(operand_1/operand_2);
     }
+    int Square(int operand_1)
+    {
+        return(operand_1*operand_1);
+    }
+    int cube(int operand_1)
+    {
+        return(operand_1*operand_1*operand_1);
+    }
 
     public static void main(String[] args){
         float operand_1=10;
@@ -36,7 +44,10 @@ class Calculator
         float div_result=calc.division(operand_1,operand_2);
         System.out.print("Result of division is:" +div_result);
         
+        int Square_result=calc.Square(operand_1);
+        System.out.print("Result of Square is:" +squ_result);
         
-        
+        int Cube_result=calc.Cube(operand_1);
+        System.out.print("Result of cubeis:" +cube_result);
     }
 }
