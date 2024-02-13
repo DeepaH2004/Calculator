@@ -1,4 +1,4 @@
-class Calculator
+class Calculator,java
 {
     float addition(float operand_1,float operand_2)
     {
