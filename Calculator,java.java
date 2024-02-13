@@ -44,10 +44,10 @@ class Calculator
         float div_result=calc.division(operand_1,operand_2);
         System.out.print("Result of division is:" +div_result);
         
-        int Square_result=calc.Square(operand_1);
-        System.out.print("Result of Square is:" +squr_result);
+        int square_result=calc.Square(operand_1);
+        System.out.print("Result of Square is:" +square_result);
         
-        int Cube_result=calc.Cube(operand_1);
+        int cube_result=calc.cube(operand_1);
         System.out.print("Result of cubeis:" +cube_result);
     }
 }
