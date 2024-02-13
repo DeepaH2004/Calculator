@@ -19,11 +19,11 @@ class Calculator
     {
         return(operand_1/operand_2);
     }
-    int Square(int operand_1)
+    float Square(int operand_1)
     {
         return(operand_1*operand_1);
     }
-    int cube(int operand_1)
+    float cube(int operand_1)
     {
         return(operand_1*operand_1*operand_1);
     }
@@ -44,10 +44,10 @@ class Calculator
         float div_result=calc.division(operand_1,operand_2);
         System.out.print("Result of division is:" +div_result);
         
-        int square_result=calc.Square(operand_1);
+        float square_result=calc.Square(operand_1);
         System.out.print("Result of Square is:" +square_result);
         
-        int cube_result=calc.cube(operand_1);
+        float cube_result=calc.cube(operand_1);
         System.out.print("Result of cubeis:" +cube_result);
     }
 }
